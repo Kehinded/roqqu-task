@@ -1,6 +1,16 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
+/* font-family: "Avenir LT Std", sans-serif;
+font-family: 'Gilroy-Bold', sans-serif;
+font-family: 'Gilroy-Heavy', sans-serif;
+font-family: 'Gilroy-Light', sans-serif;
+font-family: 'Gilroy-Medium', sans-serif;
+font-family: 'Gilroy-Regular', sans-serif; */
+
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+@import url("http://fonts.cdnfonts.com/css/avenir-lt-std");
+
 *,
 *::after,
 *::before {
@@ -22,8 +32,8 @@ font-family: 'Roboto', sans-serif; */
   --text-dark-color: #000b2ee8;
   --text-light-color: #636877e8;
   --text-orange-color: #d10059;
-  --text-font: "Inter", sans-serif;
-  --nav-font: "Roboto", sans-serif;
+  --text-font: "Avenir LT Std", sans-serif;
+  --heading-font: "Gilroy-Bold", sans-serif;
 }
 
 html {
