@@ -14,19 +14,6 @@
       width: 90%;
     }
 
-    // .text {
-    //   text-align: center;
-    //   font-size: 1.5rem;
-    // }
-
-    // .heading {
-    //   font-family: var(--heading-font-family);
-    //   font-size: 2.3vw;
-    //   font-weight: bold;
-    //   text-align: center;
-    //   margin: 1rem 0rem;
-    // }
-
     // table styles
     .table-box {
       background-color: var(--white-color);
@@ -37,6 +24,8 @@
       overflow-x: auto;
       -ms-overflow-style: none;
       scrollbar-width: none;
+  box-shadow: .1rem .1rem 4rem .1rem rgba(0,0,0, .05), -.1rem -.1rem 4rem .1rem rgba(0,0,0, .05); 
+
 
       @media only screen and (max-width: 60em) {
         // width: 100%;
