@@ -48,11 +48,16 @@
           tr {
             th {
               color: #636877e8;
-              // font-weight: normal;
-              opacity: .8;
+              font-weight: lighter;
+              // opacity: .8;
               font-size: 1.25rem;
               padding: 0rem 2rem;
               padding-bottom: 3rem;
+
+              @media only screen and (max-width: 38em){
+                font-weight: bold;
+                padding-bottom: 2rem;
+              }
             }
           }
         }

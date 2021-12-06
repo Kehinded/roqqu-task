@@ -44,10 +44,16 @@
 }
 .table-section .content-box .table-box .table thead tr th {
   color: #636877e8;
-  opacity: 0.8;
+  font-weight: lighter;
   font-size: 1.25rem;
   padding: 0rem 2rem;
   padding-bottom: 3rem;
+}
+@media only screen and (max-width: 38em) {
+  .table-section .content-box .table-box .table thead tr th {
+    font-weight: bold;
+    padding-bottom: 2rem;
+  }
 }
 .table-section .content-box .table-box .table tbody tr > *:nth-child(3) {
   color: #d10059;
