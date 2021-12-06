@@ -44,7 +44,7 @@
 }
 .table-section .content-box .table-box .table thead tr th {
   color: #636877e8;
-  font-weight: lighter;
+  opacity: 0.8;
   font-size: 1.25rem;
   padding: 0rem 2rem;
   padding-bottom: 3rem;
