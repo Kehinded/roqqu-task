@@ -1,0 +1,23 @@
+.type-section {
+  margin: 9rem 0rem 3rem 0rem;
+  width: 100%;
+
+  .card-box {
+    width: 80%;
+    margin: 4rem auto 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(33rem, 1fr));
+    grid-column-gap: 3rem;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    @media only screen and (max-width: 53em) {
+      width: 90%;
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

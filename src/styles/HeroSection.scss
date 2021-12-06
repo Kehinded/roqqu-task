@@ -1,33 +1,97 @@
-.hero-section{
+.hero-section {
+  height: 100%;
+  width: 100%;
+  // background-color: red;
+  display: flex;
+
+  @media only screen and (max-width: 48em) {
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .box-1 {
+    flex: 0 0 40%;
+    // background-color: green;
     height: 100%;
-    width: 100%;
-    // background-color: red;   
-    display: flex;
+    display: grid;
+    place-items: center;
 
-    .box-1{
-        flex:0 0 40%;
-        // background-color: green;
-        height: 100%;
-    }
-    .box-2{
-        flex: 1;
-        // background-color: red;
-        height: 100%;
-        position: relative;
+    // @media only screen and (max-width: 48em) {
+    //   justify-content: flex-start;
+    // }
 
-        .img-box{
-            position: absolute;
-            top: 50%;
-            right: -10%;
-            transform: translateY(-50%);
-            height: 85%;
-            width: 100%;
+    .content-box {
+      color: var(--white-color);
+      display: flex;
+      flex-direction: column;
+      transform: translateX(10%);
 
-          .img{
-              object-fit: contain;
-              height: 100%;
-              width: 100%;
-          }
+      .text-one {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+      }
+
+      .heading-one,
+      .heading-two {
+        font-family: var(--heading-font);
+        font-size: 3vw;
+
+        @media only screen and (max-width: 48em) {
+          font-size: 3rem;
         }
+      }
+
+      @media only screen and (max-width: 38em) {
+        transform: translateX(0%);
+      }
+
+      .heading-two {
+        margin-bottom: 3rem;
+      }
+
+      .text-two-a,
+      .text-two-b {
+        font-size: 1.3rem;
+        color: #e8e9ebcc;
+      }
+
+      .text-two-b {
+        margin: 1rem 0rem 2.5rem 0rem;
+      }
+
+      .btn {
+        align-self: flex-start;
+      }
     }
+  }
+  .box-2 {
+    flex: 1;
+    // background-color: red;
+    height: 100%;
+    position: relative;
+
+    @media only screen and (max-width: 48em) {
+      margin-bottom: 3rem;
+    }
+
+    @media only screen and (max-width: 38em) {
+      margin-bottom: 6rem;
+    }
+
+    .img-box {
+      position: absolute;
+      top: 50%;
+      right: -20%;
+      transform: translateY(-50%);
+      height: 80%;
+      width: 100%;
+
+      .img {
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
 }

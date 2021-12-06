@@ -1,0 +1,25 @@
+.card {
+  padding: 3rem;
+  border-radius: 0.6rem;
+  background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 20rem;
+
+  .title {
+    color: var(--headin-color);
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .text {
+    // height: 80%;
+    width: 85%;
+    text-align: left;
+    font-size: 1.45rem;
+    color: #000b2e90;
+    line-height: 2rem;
+  }
+}
