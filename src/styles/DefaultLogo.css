@@ -1,80 +1,68 @@
 .default-logo-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .default-logo-box .line-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   border-radius: 50%;
   overflow: hidden;
   padding: 0.1rem;
-  display: -ms-grid;
   display: grid;
   place-items: center;
   width: 2rem;
-  background-image: -webkit-gradient(linear, left top, right top, from(var(--primary-color)), color-stop(20%, var(--primary-color)), color-stop(60%, var(--white-color)), to(var(--white-color)));
   background-image: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color) 20%, var(--white-color) 60%, var(--white-color) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
-
 @media only screen and (max-width: 43em) {
   .default-logo-box .line-box {
     width: 3rem;
   }
 }
-
 .default-logo-box .line-box span {
   width: 100%;
   height: 0.12rem;
-  background-image: -webkit-gradient(linear, left top, right top, from(var(--primary-color)), color-stop(5%, var(--primary-color)), color-stop(60%, var(--white-color)), to(var(--white-color)));
-  background-image: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color) 5%, var(--white-color) 60%, var(--white-color) 100%);
+  background-image: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color) 0%, var(--white-color) 60%, var(--white-color) 100%);
   opacity: 0.8;
 }
-
 @media only screen and (max-width: 43em) {
   .default-logo-box .line-box span {
     height: 0.2rem;
   }
 }
-
 .default-logo-box .line-box > *:not(:last-child) {
   margin-bottom: 0.2rem;
 }
-
-.default-logo-box .line-box > *:first-child,
-.default-logo-box .line-box > *:last-child {
+.default-logo-box .line-box > *:first-child, .default-logo-box .line-box > *:last-child {
   width: 50%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(var(--primary-color)), color-stop(20%, var(--primary-color)), color-stop(60%, var(--white-color)), to(var(--white-color)));
+  align-self: center;
   background-image: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color) 20%, var(--white-color) 60%, var(--white-color) 100%);
 }
-
+.default-logo-box .line-box > *:nth-child(2), .default-logo-box .line-box > *:nth-child(6) {
+  width: 80%;
+  align-self: center;
+  background-image: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color) 15%, var(--white-color) 60%, var(--white-color) 100%);
+}
+.default-logo-box .line-box > *:nth-child(4) {
+  width: 100%;
+  align-self: center;
+  background-image: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color) 30%, var(--white-color) 60%, var(--white-color) 100%);
+}
 .default-logo-box .text {
   color: var(--white-color);
   margin-left: 0.5rem;
   font-size: 1.7rem;
   letter-spacing: 0.1rem;
-  -webkit-transform: translateY(-0.2rem);
-          transform: translateY(-0.2rem);
+  transform: translateY(-0.2rem);
 }
-
 @media only screen and (max-width: 43em) {
   .default-logo-box .text {
     font-size: 2rem;
   }
 }
-/*# sourceMappingURL=DefaultLogo.css.map */
+
+.skeleton {
+  background-color: unset;
+}/*# sourceMappingURL=DefaultLogo.css.map */

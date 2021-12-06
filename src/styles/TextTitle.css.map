@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,MAAM;CAClB;;AAED,AAAA,QAAQ,CAAC;EACP,WAAW,EAAE,0BAA0B;EACvC,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,SAAS;CAKlB;;AAHC,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,IAAI;EAPzC,AAAA,QAAQ,CAAC;IAQL,SAAS,EAAE,IAAI;GAElB",
-    "sources": [
-        "TextTitle.scss"
-    ],
-    "names": [],
-    "file": "TextTitle.css"
-}
+{"version":3,"sources":["TextTitle.scss"],"names":[],"mappings":"AAAA;EACE,kBAAA;EACA,iBAAA;AACF;;AAEA;EACE,uCAAA;EACA,gBAAA;EACA,iBAAA;EACA,kBAAA;EACA,iBAAA;AACF;AACE;EAPF;IAQI,eAAA;EAEF;AACF","file":"TextTitle.css"}

@@ -1,13 +1,14 @@
-import React from "react";
+import React, {useContext} from "react";
 import { FaArrowRight } from "react-icons/fa";
-// import { Button } from "react-scroll";
+import SidebarContext from "../store/SidebarContext";
 import TableContent from "../components/TableContent";
 import TextTitle from "../fragments/TextTitle";
 import "../styles/TableSection.css";
 
 const ExchangeSection = () => {
+  const sidebarCtx = useContext(SidebarContext)
   return (
-    <div className="table-section">
+    <div className="table-section" onClick={() => sidebarCtx.showsidebarFunc("close")}>
       <div className="content-box">
         <TextTitle
           text="PAIR TRADING"

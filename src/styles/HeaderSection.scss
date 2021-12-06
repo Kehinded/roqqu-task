@@ -7,6 +7,21 @@
   background-color: var(--primary-color);
   color: var(-white-color);
 
+  // menu background
+.nav-menu {
+  color: var(--white-color);
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  top: 2rem;
+  right: 4rem;
+  cursor: pointer;
+
+  @media only screen and (min-width: 60em) {
+    display: none;
+  }
+}  
+
   .navigation-box {
     position: fixed;
     top: 0;
@@ -24,16 +39,18 @@
     }
 
     .info-box {
-      flex: 0 0 15%;
+      // flex: 0 0 15%;
       display: flex;
       align-items: center;
       background-color: #0e172f;
       padding: 1rem 2rem;
       border-radius: 0.2rem;
       cursor: pointer;
+      margin-right: auto;
+      // margin-left: -10%;
 
-      @media only screen and (max-width: 43em) {
-        display: none;
+      @media only screen and (max-width: 60em) {
+        margin-right: unset;
       }
 
       span {
@@ -57,6 +74,7 @@
 
     .nav-list-box {
       margin-left: auto;
+      flex: 1;
     }
   }
 

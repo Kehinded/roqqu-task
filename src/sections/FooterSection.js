@@ -1,6 +1,7 @@
-import React from "react";
+import React, {useContext} from "react";
 import FooterImg from "../assets/roqqu-logo-one.png";
 import ListItem from "../fragments/ListItem";
+import SidebarContext from "../store/SidebarContext";
 import {
   footeroneDetails,
   footerthreeDetails,
@@ -9,8 +10,9 @@ import {
 import "../styles/Footer.css";
 
 const FooterSection = () => {
+  const sidebarCtx = useContext(SidebarContext)
   return (
-    <div className="footer-section">
+    <div className="footer-section" onClick={() => sidebarCtx.showsidebarFunc("close")}>
       <div className="box-1">
         <figure className="img-box">
           <img src={FooterImg} alt="" className="img" />

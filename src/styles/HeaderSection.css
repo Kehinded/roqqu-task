@@ -1,18 +1,26 @@
 .header-section {
   width: 100%;
   min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   position: relative;
   background-color: var(--primary-color);
   color: var(-white-color);
 }
-
+.header-section .nav-menu {
+  color: var(--white-color);
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  top: 2rem;
+  right: 4rem;
+  cursor: pointer;
+}
+@media only screen and (min-width: 60em) {
+  .header-section .nav-menu {
+    display: none;
+  }
+}
 .header-section .navigation-box {
   position: fixed;
   top: 0;
@@ -21,52 +29,34 @@
   width: 100vw;
   height: 7rem;
   padding: 1rem 5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background-color: var(--primary-color);
 }
-
 .header-section .navigation-box .logo-box {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 15%;
-          flex: 0 0 15%;
+  flex: 0 0 15%;
 }
-
 .header-section .navigation-box .info-box {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 15%;
-          flex: 0 0 15%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background-color: #0e172f;
   padding: 1rem 2rem;
   border-radius: 0.2rem;
   cursor: pointer;
+  margin-right: auto;
 }
-
-@media only screen and (max-width: 43em) {
+@media only screen and (max-width: 60em) {
   .header-section .navigation-box .info-box {
-    display: none;
+    margin-right: unset;
   }
 }
-
 .header-section .navigation-box .info-box span {
   color: #c7d2eb;
   font-size: 1.25rem;
 }
-
 .header-section .navigation-box .info-box > *:first-child {
   margin-right: 2rem;
 }
-
 .header-section .navigation-box .info-box > *:last-child {
   margin-left: 0.3rem;
   width: 1.3rem;
@@ -75,14 +65,12 @@
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   background-color: #088064;
 }
-
 .header-section .navigation-box .nav-list-box {
   margin-left: auto;
+  flex: 1;
 }
-
 .header-section .hero-section-box {
   width: 100%;
   height: calc(100vh - 7rem);
   margin-top: 7rem;
-}
-/*# sourceMappingURL=HeaderSection.css.map */
+}/*# sourceMappingURL=HeaderSection.css.map */

@@ -10,10 +10,8 @@
   text-align: center;
   margin: 1rem 0rem;
 }
-
 @media only screen and (max-width: 48em) {
   .heading {
     font-size: 3rem;
   }
-}
-/*# sourceMappingURL=TextTitle.css.map */
+}/*# sourceMappingURL=TextTitle.css.map */

@@ -1,11 +1,13 @@
-import React from "react";
+import React, {useContext} from "react";
 import "../styles/HeroSection.css";
 import HeroImg from "../assets/header-home.png";
 import Button from "../fragments/Button";
+import SidebarContext from "../store/SidebarContext";
 
 const HeroSection = () => {
+  const sidebarCtx = useContext(SidebarContext)
   return (
-    <div className="hero-section">
+    <div className="hero-section" onClick={() => sidebarCtx.showsidebarFunc("close")}>
       <div className="box-1">
         <div className="content-box">
           <p className="text-one">ROQQU EXCHANGE</p>

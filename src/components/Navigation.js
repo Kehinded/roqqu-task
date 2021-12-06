@@ -1,14 +1,21 @@
-import React from "react";
-import { FaBars } from "react-icons/fa";
+import React, {useContext} from "react";
+// import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Button from "../fragments/Button";
 import "../styles/NavList.css";
+import SidebarContext from "../store/SidebarContext";
 
 const Navigation = () => {
+  const sidebarCtx = useContext(SidebarContext)
   return (
     <>
-      <FaBars className="nav-menu" />
-      <ul className="nav-list">
+      <ul className={`nav-list ${!sidebarCtx.showSideBar && "transform-x"}`}>
+        <div className="info-box">
+          <span>BTC/NGN</span>
+          <span>₦28,989,003</span>
+          <span></span>
+        </div>
+        {/* info-box */}
         <li className="nav-item">
           <Link className="nav-link" to="">
             fees

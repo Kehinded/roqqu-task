@@ -4,86 +4,53 @@
   margin: 10rem 0rem 3rem 0rem;
   min-height: 30rem;
 }
-
 .start-section .content-box {
   width: 80%;
   margin: 0rem auto 0rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   color: var(--heading-light-color);
   min-height: 30rem;
 }
-
 @media only screen and (max-width: 38em) {
   .start-section .content-box {
     width: 90%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     padding: 4rem 0rem;
   }
 }
-
 .start-section .content-box .box-1 {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  flex: 0 0 50%;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
-
 @media only screen and (max-width: 38em) {
   .start-section .content-box .box-1 {
     width: 100%;
   }
 }
-
 .start-section .content-box .box-1 .heading {
   text-align: left;
   font-size: 3rem;
   margin: 1rem 0rem;
 }
-
 @media only screen and (max-width: 38em) {
   .start-section .content-box .box-1 .heading {
     font-size: 2.5rem;
   }
 }
-
 .start-section .content-box .box-1 .text {
   opacity: 0.8;
 }
-
 .start-section .content-box .box-2 {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -ms-grid;
+  flex: 1;
   display: grid;
   place-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
-
 @media only screen and (max-width: 38em) {
   .start-section .content-box .box-2 {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    justify-content: flex-start;
   }
-}
-/*# sourceMappingURL=Start.css.map */
+}/*# sourceMappingURL=Start.css.map */

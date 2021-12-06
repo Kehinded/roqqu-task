@@ -1,10 +1,15 @@
-import React from "react";
+import React, {useContext} from "react";
 import Button from "../fragments/Button";
 import "../styles/Start.css";
+import SidebarContext from "../store/SidebarContext";
 
 const StartSection = () => {
+  const sidebarCtx = useContext(SidebarContext)
   return (
-    <div className="start-section">
+    <div
+      className="start-section"
+      onClick={() => sidebarCtx.showsidebarFunc("close")}
+    >
       <div className="content-box">
         <div className="box-1">
           <p className="text">Your trading journey starts now</p>
