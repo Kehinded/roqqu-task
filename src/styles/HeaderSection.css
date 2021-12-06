@@ -1,1 +1,54 @@
-/* No CSS *//*# sourceMappingURL=HeaderSection.css.map */
+.header-section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--primary-color);
+  color: var(-white-color);
+}
+.header-section .navigation-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 7rem;
+  padding: 1rem 5rem;
+  display: flex;
+  align-items: center;
+}
+.header-section .navigation-box .logo-box {
+  flex: 0 0 15%;
+}
+.header-section .navigation-box .info-box {
+  flex: 0 0 15%;
+  display: flex;
+  align-items: center;
+  background-color: #0E172F;
+  padding: 1rem 2rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.header-section .navigation-box .info-box span {
+  color: #C7D2EB;
+  font-size: 1.25rem;
+}
+.header-section .navigation-box .info-box > *:first-child {
+  margin-right: 2rem;
+}
+.header-section .navigation-box .info-box > *:last-child {
+  margin-left: 0.3rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background-color: #088064;
+}
+.header-section .navigation-box .nav-list-box {
+  margin-left: auto;
+}
+.header-section .hero-section-box {
+  width: 100%;
+  height: calc(100vh - 7rem);
+  margin-top: 7rem;
+}/*# sourceMappingURL=HeaderSection.css.map */

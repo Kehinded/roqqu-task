@@ -1,0 +1,39 @@
+.default-logo-box {
+  display: flex;
+  align-items: center;
+}
+.default-logo-box .line-box {
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0.1rem;
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  background-image: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color) 20%, var(--white-color) 60%, var(--white-color) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.default-logo-box .line-box span {
+  width: 100%;
+  height: 0.12rem;
+  background-image: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color) 5%, var(--white-color) 60%, var(--white-color) 100%);
+  opacity: 0.8;
+}
+.default-logo-box .line-box > *:not(:last-child) {
+  margin-bottom: 0.2rem;
+}
+.default-logo-box .line-box > *:first-child, .default-logo-box .line-box > *:last-child {
+  width: 50%;
+  align-self: center;
+  background-image: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color) 20%, var(--white-color) 60%, var(--white-color) 100%);
+}
+.default-logo-box .text {
+  color: var(--white-color);
+  margin-left: 0.5rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+  transform: translateY(-0.2rem);
+}/*# sourceMappingURL=DefaultLogo.css.map */

@@ -27,8 +27,8 @@ font-family: 'Gilroy-Regular', sans-serif; */
   --heading-light-color: #ffffffe8;
   --heading-color: #000b2ee8;
   --headin-two-color: #051955;
-  --blue-button-color-light: #0165ff;
-  --button-color-dark: #3759e5;
+  --blue-button-color-light: #0165FF;
+  --button-color-dark: #051955;
   --text-dark-color: #000b2ee8;
   --text-light-color: #636877e8;
   --text-orange-color: #d10059;
@@ -54,13 +54,13 @@ body {
   grid-template-rows: min-content;
   font-family: var(--text-font);
   overflow-x: hidden;
-  background-color: var(--background-color);
+  background-color: var(--secondary-color);
 }
 
 #root {
   grid-column: full-start / full-end;
   overflow-x: hidden;
-  background-color: var(--background-color);
+  background-color: var(--secondary-color);
 }
 
 @media only screen and (max-width: 75em) {

@@ -1,0 +1,28 @@
+.hero-section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.hero-section .box-1 {
+  flex: 0 0 40%;
+  height: 100%;
+}
+.hero-section .box-2 {
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+.hero-section .box-2 .img-box {
+  position: absolute;
+  top: 50%;
+  right: -10%;
+  transform: translateY(-50%);
+  height: 85%;
+  width: 100%;
+}
+.hero-section .box-2 .img-box .img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=HeroSection.css.map */

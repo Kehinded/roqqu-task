@@ -1,0 +1,25 @@
+button {
+  border: none;
+  padding: 0.7rem 2.3rem;
+  display: grid;
+  place-items: center;
+  outline: none;
+  color: var(--white-color);
+  text-transform: capitalize;
+  background-color: transparent;
+  border-radius: 0.4rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 0.7rem 3rem;
+}
+
+.btn-small {
+  background-color: var(--button-color-dark);
+}
+
+.btn-small-border {
+  border: 0.1rem solid var(--white-color);
+}/*# sourceMappingURL=Button.css.map */

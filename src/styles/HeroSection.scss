@@ -1,0 +1,33 @@
+.hero-section{
+    height: 100%;
+    width: 100%;
+    // background-color: red;   
+    display: flex;
+
+    .box-1{
+        flex:0 0 40%;
+        // background-color: green;
+        height: 100%;
+    }
+    .box-2{
+        flex: 1;
+        // background-color: red;
+        height: 100%;
+        position: relative;
+
+        .img-box{
+            position: absolute;
+            top: 50%;
+            right: -10%;
+            transform: translateY(-50%);
+            height: 85%;
+            width: 100%;
+
+          .img{
+              object-fit: contain;
+              height: 100%;
+              width: 100%;
+          }
+        }
+    }
+}

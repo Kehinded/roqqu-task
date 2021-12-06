@@ -1,0 +1,15 @@
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.nav-list > *:not(:first-child) {
+  margin-left: 5rem;
+}
+.nav-list .nav-item .nav-link {
+  color: var(--white-color);
+  text-transform: capitalize;
+  min-width: 10rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+}/*# sourceMappingURL=NavList.css.map */
