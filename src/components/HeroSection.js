@@ -23,7 +23,7 @@ const HeroSection = () => {
       {/* end of text box */}
       <div className="box-2">
         <figure className="img-box">
-          <img src={HeroImg} alt="" className="img" />
+          <img src={HeroImg} width="100%" height="100%"alt="screen" title="screen" className="img" />
         </figure>
       </div>
       {/* box two end */}

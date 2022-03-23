@@ -15,7 +15,7 @@ const FooterSection = () => {
     <div className="footer-section" onClick={() => sidebarCtx.showsidebarFunc("close")}>
       <div className="box-1">
         <figure className="img-box">
-          <img src={FooterImg} alt="" className="img" />
+          <img src={FooterImg} width="100%" height="100%"alt="logo" title="logo" className="img" />
         </figure>
         <p className="text">
           Buy and sell faster using the Roqqu mobile app, available on Google

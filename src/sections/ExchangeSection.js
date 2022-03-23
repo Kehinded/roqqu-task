@@ -11,6 +11,7 @@ const ExchangeSection = () => {
     <div className="table-section" onClick={() => sidebarCtx.showsidebarFunc("close")}>
       <div className="content-box">
         <TextTitle
+          second
           text="PAIR TRADING"
           heading="Trade popular pairs across the market"
         />

@@ -12,7 +12,10 @@ const ImgTextData = ({ img, one }) => {
       <figure className="img-box" style={{ width: "6rem", height: "4rem" }}>
         <img
           src={img}
-          alt=""
+          width="100%"
+          height="100%"
+          alt="card"
+          title="card"
           className="img"
           style={{ objectFit: "contain", width: "100%", height: "100%" }}
         />
