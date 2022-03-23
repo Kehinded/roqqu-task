@@ -59,6 +59,7 @@ body {
   font-family: var(--text-font);
   overflow-x: hidden;
   background-color: var(--secondary-color);
+  overscroll-behavior-y: none;
 }
 
 #root {
