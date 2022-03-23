@@ -16,6 +16,10 @@ function App() {
           name="description"
           content="roqqu exchange site, crypto roqqu site, exchange site, get crypto"
         />
+         <meta
+          name="keywords"
+          content="roqqu exchange site, crypto roqqu site, exchange site, get crypto"
+        />
         <link rel="canonical" href="/" />
       </Helmet>
       <div className="App">
