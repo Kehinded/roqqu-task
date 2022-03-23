@@ -5,12 +5,15 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 import {SidebarContextProvider} from "./store/SidebarContext"
+import {HelmetProvider } from 'react-helmet-async';
 
 ReactDOM.render(
   <BrowserRouter>
     <SidebarContextProvider>
       <React.StrictMode>
-        <App />
+        <HelmetProvider>
+           <App />
+        </HelmetProvider>
       </React.StrictMode>
     </SidebarContextProvider>
   </BrowserRouter>,

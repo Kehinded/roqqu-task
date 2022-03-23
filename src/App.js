@@ -5,20 +5,31 @@ import FooterSection from "./sections/FooterSection";
 import HeaderSection from "./sections/HeaderSection";
 import StartSection from "./sections/StartSection";
 import TypeSection from "./sections/TypeSection";
+import { Helmet } from "react-helmet-async";
 
 function App() {
   return (
-    <div className="App">
-      <Switch>
-        <Route exact path="/">
-          <HeaderSection />
-          <ExchangeSection />
-          <TypeSection />
-          <StartSection />
-          <FooterSection />
-        </Route>
-      </Switch>
-    </div>
+    <>
+      <Helmet>
+        <title>Roqqu Exchange</title>
+        <meta
+          name="description"
+          content="roqqu exchange site, crypto roqqu site, exchange site, get crypto"
+        />
+        <link rel="canonical" href="/" />
+      </Helmet>
+      <div className="App">
+        <Switch>
+          <Route exact path="/">
+            <HeaderSection />
+            <ExchangeSection />
+            <TypeSection />
+            <StartSection />
+            <FooterSection />
+          </Route>
+        </Switch>
+      </div>
+    </>
   );
 }
 
