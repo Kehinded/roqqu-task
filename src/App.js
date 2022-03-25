@@ -14,8 +14,7 @@ function App() {
         <title>Roqqu Exchange</title>
         <meta
           name="description"
-          content="roqqu exchange site, crypto roqqu site, exchange site, get crypto, All things Crypto, Blockchain, NFTs and Metaverse.
-          Welcome to Roqqu Hub, a place of all things Blockchain and how Blockchain technology is transforming the world. Decentralization, simplicity, uniqueness, anti-variation, and automation are key characteristics of blockchain technology. We can use these components in various enterprises, resulting in a large number of possible applications. Here are some blockchain use cases you may want to know of."
+          content="roqqu exchange site, crypto roqqu site, exchange site, get crypto, All things Crypto, Blockchain, NFTs and Metaverse."
         />
          <meta
           name="keywords"
