@@ -10,10 +10,10 @@ font-family: 'Gilroy-Regular', sans-serif; */
 /* @import url("http://fonts.cdnfonts.com/css/gilroy-bold"); */
 
 /* @import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");  */
-@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
-@import url("http://fonts.cdnfonts.com/css/avenir-lt-std");
 @import url("https://fonts.cdnfonts.com/css/gilroy-bold");   
-@import url("https://fonts.cdnfonts.com/css/avenir-lt-std");    
+@import url("https://fonts.cdnfonts.com/css/avenir-lt-std"); 
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold");
+@import url("http://fonts.cdnfonts.com/css/avenir-lt-std");   
 
 *,
 *::after,
