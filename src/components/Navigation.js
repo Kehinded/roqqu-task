@@ -17,22 +17,22 @@ const Navigation = () => {
         </div>
         {/* info-box */}
         <li className="nav-item">
-          <Link className="nav-link" to="">
+          <Link className="nav-link" to="/fee">
             fees
           </Link>{" "}
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="">
+          <Link className="nav-link" to="/learn">
             learn
           </Link>{" "}
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="">
+          <Link className="nav-link" to="/blog">
             blog
           </Link>{" "}
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="">
+          <Link className="nav-link" to="/business">
             for business
           </Link>{" "}
         </li>

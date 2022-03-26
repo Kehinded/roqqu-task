@@ -1,35 +1,30 @@
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
-import ExchangeSection from "./sections/ExchangeSection";
-import FooterSection from "./sections/FooterSection";
-import HeaderSection from "./sections/HeaderSection";
-import StartSection from "./sections/StartSection";
-import TypeSection from "./sections/TypeSection";
-import { Helmet } from "react-helmet-async";
+import HomePage from "./pages/HomePage";
+import FeePage from "./pages/FeePage";
+import LearnPage from "./pages/LearnPage";
+import BlogPage from "./pages/BlogPage";
+import BusinessPage from "./pages/BusinessPage";
 
 function App() {
   return (
     <>
-      <Helmet>
-        <title>Roqqu Exchange</title>
-        <meta
-          name="description"
-          content="roqqu exchange site, crypto roqqu site, exchange site, get crypto, All things Crypto, Blockchain, NFTs and Metaverse."
-        />
-         <meta
-          name="keywords"
-          content="roqqu exchange site, crypto roqqu site, exchange site, get crypto"
-        />
-        <link rel="canonical" href="/" />
-      </Helmet>
       <div className="App">
         <Switch>
           <Route exact path="/">
-            <HeaderSection />
-            <ExchangeSection />
-            <TypeSection />
-            <StartSection />
-            <FooterSection />
+            <HomePage />
+          </Route>
+          <Route exact path="/fee">
+            <FeePage />
+          </Route>
+          <Route exact path="/blog">
+            <BlogPage />
+          </Route>
+          <Route exact path="/business" >
+            <BusinessPage />
+          </Route>
+          <Route exact path="/learn" >
+            <LearnPage />
           </Route>
         </Switch>
       </div>
